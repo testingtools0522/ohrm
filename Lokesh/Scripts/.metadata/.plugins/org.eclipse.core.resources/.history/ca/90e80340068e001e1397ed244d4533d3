@@ -1,0 +1,21 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	static int cubeValue(int i)
+	{
+		return(i*i*i);
+	}
+	
+	public static void main(String[] args) 
+	{
+		System.out.println(cubeValue(-10));
+	}
+	
+	
+	
+
+}

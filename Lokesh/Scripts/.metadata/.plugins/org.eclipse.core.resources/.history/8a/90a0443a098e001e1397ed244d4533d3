@@ -1,0 +1,16 @@
+package pack1;
+
+public class Methods 
+{
+	static void cubeValue()
+	{
+		int i=10;
+		System.out.println(i*i*i);
+	}
+	
+	public static void main(String[] args) 
+	{
+		cubeValue();
+	}
+	
+}

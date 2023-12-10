@@ -1,0 +1,52 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	
+	
+	
+	//method with no return type
+	void demoMethod1()
+	{
+		System.out.println("demo method1");
+		
+	}
+	
+	//method with return type
+	int demoMethod2()
+	{
+		System.out.println("demo method2");
+		return 10;
+	}
+	
+	boolean login()
+	{
+		System.out.println("login method");
+		return true;
+	}
+	
+	void logout()
+	{
+		System.out.println("Logout method");
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Methods obj=new Methods();
+		obj.demoMethod1();
+		int a=obj.demoMethod2();
+		System.out.println(a);
+				
+		if(obj.login()==true)
+			obj.logout();
+		
+	}
+	
+	
+	
+
+}

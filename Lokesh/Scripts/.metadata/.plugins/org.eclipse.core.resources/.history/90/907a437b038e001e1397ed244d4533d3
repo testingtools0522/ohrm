@@ -1,0 +1,32 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	
+	//method with no return type
+	void demoMethod1()
+	{
+		System.out.println("demo method1");
+		
+	}
+	
+	//method with return type
+	int demoMethod2()
+	{
+		System.out.println("demo method2");
+		return 10;
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	
+
+}

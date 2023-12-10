@@ -1,0 +1,23 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	
+	static void display(int a)
+	{
+		System.out.println("given value is "+a);
+	}
+	public static void main(String[] args) 
+	{
+		display(10);
+		display(100);
+		display(-100);
+	}
+	
+	
+	
+
+}

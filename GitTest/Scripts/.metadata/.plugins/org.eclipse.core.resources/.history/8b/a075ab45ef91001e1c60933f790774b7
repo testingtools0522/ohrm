@@ -1,0 +1,22 @@
+package pack1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserDemo 
+{
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.driver", "E:\\Qicon\\Lokesh\\Software\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.google.com");		
+		driver.get("http://www.flipkart.com");		
+		driver.close();
+		
+		
+		
+
+	}
+
+}

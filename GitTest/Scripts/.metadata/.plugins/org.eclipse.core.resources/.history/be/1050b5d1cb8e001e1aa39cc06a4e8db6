@@ -1,0 +1,40 @@
+package pack1;
+
+public class ConstructorsDemo 
+{
+	ConstructorsDemo()
+	{
+		System.out.println("No parameter constructor");
+		
+	}
+	
+	ConstructorsDemo(int a,int b)
+	{
+		
+		System.out.println("Sum of give values is "+(a+b));
+	}
+	
+	ConstructorsDemo(int a)
+	{
+		System.out.println("Given number is "+a);
+	}
+	
+	void display()
+	{
+		System.out.println("display method");
+	}
+	
+	public static void main(String[] args) 
+	{
+		ConstructorsDemo obj1=new ConstructorsDemo();
+		obj1.display();
+		obj1.display();
+		obj1.display();
+		ConstructorsDemo obj2=new ConstructorsDemo();
+		ConstructorsDemo obj3=new ConstructorsDemo(10,20);
+		ConstructorsDemo obj4=new ConstructorsDemo(100);
+		
+		
+	}
+
+}

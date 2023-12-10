@@ -1,0 +1,21 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	
+	static void display()
+	{
+		System.out.println("hello");
+	}
+	public static void main(String[] args) 
+	{
+		display();
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,30 @@
+package pack1;
+
+
+
+
+public class Methods 
+{
+	
+	static void display(int a)
+	{
+		System.out.println("given value is "+a);
+	}
+	
+	static void login(String userName,String pwd)
+	{
+		System.out.println("user name is "+userName);
+		System.out.println("password is "+pwd);
+	}
+	public static void main(String[] args) 
+	{
+		display(10);
+		display(100);
+		display(-100);
+		login("lokesh","lokesh password");
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,26 @@
+package pack1;
+
+public class Employee 
+{
+
+	String empName;
+	int empId;
+	
+	
+	public static void main(String[] args) 
+	{
+		Employee emp1=new Employee();
+		emp1.empName="Lokesh";
+		emp1.empId=100;
+		System.out.println(emp1.empName);
+		System.out.println(emp1.empId);
+		
+		Employee emp2=new Employee();
+		emp2.empName="Sreekar";
+		emp2.empId=101;
+		System.out.println(emp2.empName);
+		System.out.println(emp2.empId);
+
+	}
+
+}

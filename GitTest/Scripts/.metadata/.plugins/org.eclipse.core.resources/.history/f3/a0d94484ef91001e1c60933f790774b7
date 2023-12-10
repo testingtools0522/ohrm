@@ -1,0 +1,23 @@
+package pack1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserDemo 
+{
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.driver", "E:\\Qicon\\Lokesh\\Software\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.navigate().to("http://www.google.com");	
+		//Retrieve page title
+		System.out.println("Page title is "+driver.getTitle());
+		driver.close();
+		
+		
+		
+
+	}
+
+}
